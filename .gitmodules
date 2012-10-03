@@ -1,0 +1,3 @@
+[submodule "vendor/phpCountryDropdown"]
+	path = vendor/phpCountryDropdown
+	url = git://github.com/mapkyca/phpCountryDropdown.git
