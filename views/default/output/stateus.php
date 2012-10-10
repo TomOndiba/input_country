@@ -5,4 +5,4 @@
 	
 	$statesus = getUSStatesArray();
 
-	echo htmlspecialchars($statesus[$vars['value']], ENT_QUOTES, 'UTF-8', false);
+	echo htmlspecialchars($vars['value'], ENT_QUOTES, 'UTF-8', false);

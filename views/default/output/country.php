@@ -5,4 +5,4 @@
 	
 	$countries = getCountryArray();
 
-	echo htmlspecialchars($countries[$vars['value']], ENT_QUOTES, 'UTF-8', false);
+	echo htmlspecialchars($vars['value'], ENT_QUOTES, 'UTF-8', false);
